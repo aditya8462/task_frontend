@@ -25,3 +25,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Screenshots
 ![DashboardImage](https://github.com/aditya8462/task_frontend/assets/93572760/c9294a6c-3b17-48e8-b658-79699b3671cb)
 ![DasboardImage](https://github.com/aditya8462/task_frontend/assets/93572760/1c5bcd6a-5f48-453d-99f3-2be84121ddc2)
+![DashboardImage3](https://github.com/aditya8462/task_frontend/assets/93572760/ba52d072-d289-40a9-bd11-d730e0d552d6)
