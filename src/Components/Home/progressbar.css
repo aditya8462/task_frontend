@@ -1,0 +1,47 @@
+.wrapper {
+    /* border: 3px solid rgba(255, 205, 113, 1); */
+    border-radius: 4px;
+  }
+  
+  .container {
+    /* background: rgb(255,205,113); */
+    border-radius: 5px;
+    display: flex;
+/* background: linear-gradient(90deg, rgba(255,205,113,1) 0%, rgba(255,205,113,0.01) 100%); */
+
+
+
+  }
+  
+  .barCompleted1 {
+    background: rgb(255,205,113);
+background: linear-gradient(90deg, rgba(255,205,113,1) 0%, rgba(255,205,113,0.2) 100%);
+    border-radius: 5px;
+    width: 272px;
+  }
+  .barCompleted2 {
+    background: rgb(255,205,113);
+background: linear-gradient(90deg, rgba(255,205,113,1) 0%, rgba(255,205,113,0.2) 100%);
+    border-radius: 5px;
+    width: 229px;
+  }
+  .barCompleted3 {
+    background: rgb(255,205,113);
+background: linear-gradient(90deg, rgba(255,205,113,1) 0%, rgba(255,205,113,0.2) 100%);
+    border-radius: 5px;
+    width: 207px;
+  }
+  .barCompleted4 {
+    background: rgb(255,205,113);
+background: linear-gradient(90deg, rgba(255,205,113,1) 0%, rgba(255,205,113,0.2) 100%);
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #131313;
+    margin-left: 10px;
+    padding: 10;
+  }
