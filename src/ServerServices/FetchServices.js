@@ -1,5 +1,5 @@
 import axios from "axios";
-const ServerURL = "http://localhost:5000";
+const ServerURL = "http://campusshala.com:3236";
 const getData = async (url) => {
   try {
     var response = await fetch(`${ServerURL}/${url}`);
