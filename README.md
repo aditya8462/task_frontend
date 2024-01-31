@@ -18,8 +18,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-Backend Code Link
-###`https://github.com/aditya8462/task_backend`
+Backend Code Link `https://github.com/aditya8462/task_backend`
 
 In the project directory, you can run:
 ### `npm install` 
