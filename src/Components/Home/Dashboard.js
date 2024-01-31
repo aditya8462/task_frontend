@@ -2,7 +2,6 @@ import * as React from "react";
 import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
 import MuiDrawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
-import MuiAppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
@@ -21,7 +20,7 @@ import NewDeals from "./NewDeals";
 import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
 import MainListItems from "./ListItems";
 import {
-    Avatar,
+  Avatar,
   Chip,
   ListItemButton,
   ListItemIcon,
@@ -47,7 +46,6 @@ function Copyright(props) {
 }
 
 const drawerWidth = 280;
-
 
 const Drawer = styled(MuiDrawer, {
   shouldForwardProp: (prop) => prop !== "open",
@@ -86,9 +84,16 @@ export default function Dashboard() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <Box sx={{ display: "flex" }}>
-        
         <Drawer variant="permanent" open={open}>
-          <Box sx={{ display: "flex", gap: 1, alignItems: "center",padding:1,marginTop:2 }}>
+          <Box
+            sx={{
+              display: "flex",
+              gap: 1,
+              alignItems: "center",
+              padding: 1,
+              marginTop: 2,
+            }}
+          >
             <IconButton variant="soft" color="primary" size="sm">
               <svg
                 width="21"
@@ -143,34 +148,68 @@ export default function Dashboard() {
               </svg>
             </IconButton>
             <Typography
-              style={{ fontSize: 24, fontWeight: "bold", color: "#131313" }}
+              style={{
+                fontSize: 24,
+                fontWeight: "bold",
+                color: "#131313",
+                marginLeft: 10,
+              }}
             >
               OrangeFarm
             </Typography>
           </Box>
-          <div style={{ position: "relative",marginLeft:10 }}>
-            <SearchRoundedIcon
-              style={{
-                position: "absolute",
-                left: "10px",
-                top: "50%",
-                height: "45%",
-                transform: "translateY(-50%)",
-                color: "#7D7D7D",
-              }}
-            />
-            <input
-              type="text"
-              placeholder="Search..."
-              style={{
-                padding: "10px 30px 10px 40px",
-                borderRadius: "20px",
-                border: "2px solid #F1F1F1",
-                outline: "none",
-                width: "180px", 
-                height: "20px",
-              }}
-            />
+          <div style={{ position: "relative", marginLeft: 10 }}>
+            {!open ? (
+              <>
+                <SearchRoundedIcon
+                  style={{
+                    position: "absolute",
+                    left: "10px",
+                    top: "50%",
+                    height: "45%",
+                    transform: "translateY(-50%)",
+                    color: "#7D7D7D",
+                  }}
+                />
+                <input
+                  type="text"
+                //   placeholder="Search..."
+                  style={{
+                    padding: "10px 0px 10px 20px",
+                    borderRadius: "20px",
+                    border: "2px solid #F1F1F1",
+                    outline: "none",
+                    width: "20px",
+                    height: "20px",
+                  }}
+                />
+              </>
+            ) : (
+              <>
+                <SearchRoundedIcon
+                  style={{
+                    position: "absolute",
+                    left: "10px",
+                    top: "50%",
+                    height: "45%",
+                    transform: "translateY(-50%)",
+                    color: "#7D7D7D",
+                  }}
+                />
+                <input
+                  type="text"
+                  placeholder="Search..."
+                  style={{
+                    padding: "10px 30px 10px 40px",
+                    borderRadius: "20px",
+                    border: "2px solid #F1F1F1",
+                    outline: "none",
+                    width: "180px",
+                    height: "20px",
+                  }}
+                />
+              </>
+            )}
           </div>
           <List component="nav">
             <MainListItems />
@@ -300,32 +339,32 @@ export default function Dashboard() {
             overflow: "auto",
           }}
         >
-            <Grid container spacing={2}sx={{ p:2 }}>
-              <Grid item xs={12} sm={6} md={4.5}>
-                <Revenues />
-              </Grid>
-              <Grid item xs={12} sm={6} md={4.5}>
-                <LostDeals />
-              </Grid>
-              <Grid item xs={12} sm={6} md={3}>
-                <Quartergoal />
-              </Grid>
-              <Grid item xs={12} sm={6} md={6}>
-                <Customers />
-              </Grid>
-              <Grid item xs={12} sm={6} md={6}>
-                <Growth />
-              </Grid>
-              <Grid item xs={12} sm={6} md={3.5}>
-                <Chats />
-              </Grid>
-              <Grid item xs={12} sm={6} md={3.5}>
-                <TopStates />
-              </Grid>
-              <Grid item xs={12} sm={6} md={5}>
-                <NewDeals />
-              </Grid>
+          <Grid container spacing={2} sx={{ p: 2 }}>
+            <Grid item xs={12} sm={12} md={4.5}>
+              <Revenues />
             </Grid>
+            <Grid item xs={12} sm={12} md={4.5}>
+              <LostDeals />
+            </Grid>
+            <Grid item xs={12} sm={12} md={3}>
+              <Quartergoal />
+            </Grid>
+            <Grid item xs={12} sm={12} md={6}>
+              <Customers />
+            </Grid>
+            <Grid item xs={12} sm={12} md={6}>
+              <Growth />
+            </Grid>
+            <Grid item xs={12} sm={12} md={3.5}>
+              <Chats />
+            </Grid>
+            <Grid item xs={12} sm={12} md={3.5}>
+              <TopStates />
+            </Grid>
+            <Grid item xs={12} sm={12} md={5}>
+              <NewDeals />
+            </Grid>
+          </Grid>
         </Box>
       </Box>
     </ThemeProvider>
