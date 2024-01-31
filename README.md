@@ -37,7 +37,6 @@ http://campusshala.com:3237/
 ![DashboardImage](https://github.com/aditya8462/task_frontend/assets/93572760/c9294a6c-3b17-48e8-b658-79699b3671cb)
 ![DasboardImage](https://github.com/aditya8462/task_frontend/assets/93572760/1c5bcd6a-5f48-453d-99f3-2be84121ddc2)
 ![DashboardImage3](https://github.com/aditya8462/task_frontend/assets/93572760/ba52d072-d289-40a9-bd11-d730e0d552d6)
-![DasboardImage4](https://github.com/aditya8462/task_frontend/assets/93572760/a371b120-134a-4114-8eb4-537d996a0b7a)
 ![Screenshot 2024-01-31 155224](https://github.com/aditya8462/task_frontend/assets/93572760/1f55a5b2-a219-4ecb-8241-e7bb823283ed)
 ![Screenshot 2024-01-31 155351](https://github.com/aditya8462/task_frontend/assets/93572760/21ffa66f-64b2-4f92-9dab-0a2c3ef44556)
 ![Screenshot 2024-01-31 155307](https://github.com/aditya8462/task_frontend/assets/93572760/9f5b8a01-92f3-4769-ada3-5ec1eda18c0f)
