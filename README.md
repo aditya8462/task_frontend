@@ -18,14 +18,18 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 
-### Deployment
+Backend Code Link
+###`https://github.com/aditya8462/task_backend`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+In the project directory, you can run:
+### `npm install` 
 
-### `npm run build` fails to minify
+if this command is not working then 
+### `npm install --force`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# task_frontend" 
+then
+### `npm start`
+
 
 ## Screenshots
 ![DashboardImage](https://github.com/aditya8462/task_frontend/assets/93572760/c9294a6c-3b17-48e8-b658-79699b3671cb)
